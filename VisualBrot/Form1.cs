@@ -52,7 +52,8 @@ namespace VisualBrot
 
                     while (Complex.Abs(z) <= 2 && iterationCount < max)
                     {
-                        z = (z * z) + c;
+                        int p = 2;
+                        z = Complex.Pow(z,p) + c;
 
                         realComponent = z.Real;
                         imaginaryComponent = z.Imaginary;
