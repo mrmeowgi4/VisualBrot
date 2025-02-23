@@ -1,1 +1,1 @@
-![alt text](VisualBrot result.png "Result")
+![alt text](VisualBrot result.png)
